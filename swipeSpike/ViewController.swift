@@ -28,6 +28,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let evc = EntryViewController()
+        self.navigationController?.pushViewController(evc, animated: true)        
     }
     
     // MARK: - UITableViewDataSource

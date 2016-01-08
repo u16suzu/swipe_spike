@@ -15,6 +15,7 @@
 		64F1B18F1C3FC9ED00F91402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F1B18D1C3FC9ED00F91402 /* LaunchScreen.storyboard */; };
 		64F1B19A1C3FC9ED00F91402 /* swipeSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1B1991C3FC9ED00F91402 /* swipeSpikeTests.swift */; };
 		64F1B1A51C3FC9ED00F91402 /* swipeSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1B1A41C3FC9ED00F91402 /* swipeSpikeUITests.swift */; };
+		64F1B1B31C3FCB3600F91402 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1B1B21C3FCB3600F91402 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64F1B1A01C3FC9ED00F91402 /* swipeSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipeSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1B1A41C3FC9ED00F91402 /* swipeSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeSpikeUITests.swift; sourceTree = "<group>"; };
 		64F1B1A61C3FC9ED00F91402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F1B1B21C3FCB3600F91402 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				64F1B1811C3FC9ED00F91402 /* AppDelegate.swift */,
 				64F1B1831C3FC9ED00F91402 /* ViewController.swift */,
+				64F1B1B21C3FCB3600F91402 /* EntryViewController.swift */,
 				64F1B1851C3FC9ED00F91402 /* Main.storyboard */,
 				64F1B18B1C3FC9ED00F91402 /* Assets.xcassets */,
 				64F1B18D1C3FC9ED00F91402 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F1B1841C3FC9ED00F91402 /* ViewController.swift in Sources */,
+				64F1B1B31C3FCB3600F91402 /* EntryViewController.swift in Sources */,
 				64F1B18A1C3FC9ED00F91402 /* swipeSpike.xcdatamodeld in Sources */,
 				64F1B1821C3FC9ED00F91402 /* AppDelegate.swift in Sources */,
 			);
